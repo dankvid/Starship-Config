@@ -1,0 +1,109 @@
+# Dankvid's Starship Config
+add_newline = false
+
+[username]
+format = " [╭─$user]($style)@"
+show_always = true
+style_root = "bold red"
+style_user = "bold red"
+
+[hostname]
+disabled = false
+format = "[$hostname]($style) in "
+ssh_only = false
+style = "bold red"
+trim_at = "-"
+
+[character]
+error_symbol = " [×](bold red)"
+success_symbol = " [╰─λ](bold red)"
+
+[directory]
+truncation_length = 100
+truncate_to_repo = false
+style = " yellow"
+format = "[:$path]($style)[$read_only]($read_only_style) "
+
+[git_status]
+# I don't care about untracked files or that there's a stash present.
+untracked = ""
+format = '([\[$conflicted$deleted$renamed$modified$staged$behind\]]($style) )'
+modified = '*'
+
+[status]
+disabled = false
+format = '[\[$status - $common_meaning\]](green)'
+
+[aws]
+symbol = "  "
+
+[conda]
+symbol = " "
+
+[dart]
+symbol = " "
+
+[docker_context]
+symbol = " "
+
+[elixir]
+symbol = " "
+
+[elm]
+symbol = " "
+
+[git_branch]
+symbol = " "
+
+[golang]
+symbol = " "
+
+[hg_branch]
+symbol = " "
+
+[java]
+symbol = " "
+
+[julia]
+symbol = " "
+
+[memory_usage]
+symbol = " "
+
+[nim]
+symbol = " "
+
+[nix_shell]
+symbol = " "
+
+[nodejs]
+symbol = " "
+
+[package]
+symbol = " "
+
+[perl]
+symbol = " "
+
+[php]
+symbol = " "
+
+[python]
+symbol = " "
+
+[ruby]
+symbol = " "
+
+[rust]
+symbol = " "
+
+[scala]
+symbol = " "
+
+[shlvl]
+symbol = " "
+
+[swift]
+symbol = "ﯣ "
+
+
